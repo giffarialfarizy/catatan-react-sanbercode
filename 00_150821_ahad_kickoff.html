@@ -4,49 +4,102 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>00 - Kick OFF</title>
-    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <title>Kick OFF</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!-- Header -->
     <div>
-      <h1>Kick OFF</h1>
-      <p class="font-bold">Ahad, 15 Agustus 2021</p>
+      <h1>Kick Off</h1>
+      <p class="tanggal">Ahad, 15 Agustus 2021</p>
     </div>
-    <div>
-      <ol type="1">
-        <li>
-          Setiap harinya akan diberikan video pembahasan materi dan tugas dari trainer setelah tugas dikumpulkan. Selain itu dibuka sesi live session menggunakan Microsoft Teams setiap 19.15 WIB
-          sampai maksimal pukul 20.15 WIB untuk tanya jawab. Disarankan menonton video pembahasan terlebih dahulu sebelum mengikuti live session tanya jawab. (live session tidak selalu setiap hari dan
-          jam nya bisa berubah sesuai dengan kondisi trainer)
-        </li>
-        <li>
-          Komponen penilaian yaitu 20% TH + 10% Q1 + 10% Q2 + 30% Q3 + 30% Proyek Akhir
-          <ol type="a">
-            <li>TH = Rata - Rata Tugas Harian</li>
-            <li>Q1 = Quiz Pekan 1 berbentuk pilihan ganda</li>
-            <li>Q2 = Quiz Pekan 2 berbentuk pilihan ganda</li>
-            <li>Q3 = Quiz Pekan 3 berbentuk mini project</li>
-            <li>Proyek akhir berbentuk web single page application</li>
-          </ol>
-        </li>
-        <li>
-          <p>Timeline Materi</p>
-          <img src="../catatan/img/01_timeline-materi.jpg" alt="timeline materi" style="width: 720px" />
-        </li>
-        <li>
-          Grup diskusi dapat dipakai untuk tempat tanya jawab seputar materi atau bertanya tentang error yang dialami. Akan ada trainer yang akan siap membantu dan semua peserta tetap dapat saling
-          membantu tanpa menunggu jawaban dari trainer. Gunakan fitur tagar pada Telegram seperti #tanyaHTML , #tanyaCSS, #tanyaPHP, dsb. agar memudahkan pencarian.
-        </li>
-        <li>
-          Jam fast response trainer @yogimahaputra setiap hari jam 10.00 sampai 12.00 (2 jam) Trainer berkomitmen untuk fast response di jam tersebut ,Jadwal fast response trainer nanti di pin di grup
-          diskusi, di luar jam tersebut trainer akan tetap berusaha menjawab setiap pertanyaan peserta dengan slow response
-        </li>
-        <li>
-          Jika sudah 30 menit atau sudah jenuh membaca dokumentasi atau googling masih belum mendapat pencerahan silakan tanyakan ke grup diskusi. Jika ada code yang mau dishare bisa disertakan gambar
-          screenshot (printscreen) (Ada tombol di keyboard dengan code PrtSrc) di desktop dan codenya dishare di pastebin.com.
-        </li>
-      </ol>
+    <!-- end of Header -->
+
+    <!-- Content -->
+    <div class="content">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <h3>Materi</h3>
+        <ul>
+          <li><a href="./00_150821_ahad_kickoff.html">00 - Kick Off</a></li>
+          <li>
+            <a href="01_160821_senin_commandline-and-git.html">01 - Command Line and Git</a>
+          </li>
+        </ul>
+      </div>
+      <!-- end of Sidebar -->
+
+      <!-- Catatan -->
+      <div class="catatan">
+        <h2>Catatan</h2>
+        <ol type="1">
+          <li id="live-session">
+            Setiap harinya akan diberikan video pembahasan materi dan tugas dari trainer setelah tugas dikumpulkan. Selain itu dibuka sesi <span class="penting">live session</span> menggunakan
+            Microsoft Teams setiap 19.15 WIB sampai maksimal pukul 20.15 WIB untuk tanya jawab. Disarankan menonton video pembahasan terlebih dahulu sebelum mengikuti live session tanya jawab. (live
+            session tidak selalu setiap hari dan jam nya bisa berubah sesuai dengan kondisi trainer)
+          </li>
+          <li id="komponen-penilaian">
+            <span class="penting">Komponen penilaian</span> yaitu 20% TH + 10% Q1 + 10% Q2 + 30% Q3 + 30% Proyek Akhir
+            <ol type="a">
+              <li>TH = Rata - Rata Tugas Harian</li>
+              <li>Q1 = Quiz Pekan 1 berbentuk pilihan ganda</li>
+              <li>Q2 = Quiz Pekan 2 berbentuk pilihan ganda</li>
+              <li>Q3 = Quiz Pekan 3 berbentuk mini project</li>
+              <li>Proyek akhir berbentuk web single page application</li>
+            </ol>
+          </li>
+          <li id="timeline-materi">
+            <span class="penting">Timeline Materi</span>
+            <img src="../catatan/img/01_timeline-materi.jpg" alt="timeline materi" style="width: 100%" />
+            <figcaption>Gambar 1. Timeline materi tiap pekan</figcaption>
+          </li>
+          <li id="tanya-jawab">
+            Grup diskusi dapat dipakai untuk tempat <span class="penting">tanya jawab</span> seputar materi atau bertanya tentang error yang dialami. Akan ada trainer yang akan siap membantu dan semua
+            peserta tetap dapat saling membantu tanpa menunggu jawaban dari trainer. Gunakan fitur tagar pada Telegram seperti #tanyaHTML , #tanyaCSS, #tanyaPHP, dsb. agar memudahkan pencarian.
+          </li>
+          <li id="fast-response">
+            <span class="penting">Waktu fast response</span> trainer @yogimahaputra setiap hari jam 10.00 sampai 12.00 (2 jam) Trainer berkomitmen untuk fast response di jam tersebut. Jadwal fast
+            response trainer nanti di pin di grup diskusi, di luar jam tersebut trainer akan tetap berusaha menjawab setiap pertanyaan peserta dengan slow response
+          </li>
+          <li id="share-code">
+            Jika sudah 30 menit atau sudah jenuh membaca dokumentasi atau googling masih belum mendapat pencerahan silakan tanyakan ke grup diskusi. Jika ada code yang mau dishare bisa disertakan
+            gambar screenshot (printscreen) (Ada tombol di keyboard dengan code PrtSrc) di desktop dan <span class="penting">codenya dishare</span> di
+            <a href="https://pastebin.com/" target="_blank">pastebin.com</a>.
+          </li>
+        </ol>
+      </div>
+      <!-- end of Catatan -->
+
+      <!-- Keywords -->
+      <div class="keywords">
+        <h3>Kata kunci</h3>
+        <ul>
+          <li>
+            <a href="#live-session">Live Session</a>
+          </li>
+          <li>
+            <a href="#komponen-penilaian">Komponen Penilaian</a>
+          </li>
+          <li>
+            <a href="#timeline-materi">Timeline Materi</a>
+          </li>
+          <li>
+            <a href="#tanya-jawab">Tanya Jawab</a>
+          </li>
+          <li>
+            <a href="#fast-response">Waktu Fast Response</a>
+          </li>
+          <li>
+            <a href="#share-code">Share Code</a>
+          </li>
+        </ul>
+      </div>
+      <!-- end of Keywords -->
     </div>
-    <p></p>
+    <!-- end of Content -->
   </body>
+  <footer>
+    <p>Author: Giffari Alfarizy</p>
+    <a href="mailto:giffarialfarizy@gmail.com">giffarialfarizy@gmail.com</a>
+  </footer>
 </html>
