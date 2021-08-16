@@ -112,11 +112,11 @@ div.sidebar ul li a:visited {
 }
 
 .content a:link {
-  color: #ff4b4b;
+  color: #ff9600;
 }
 
 .content a:visited {
-  color: #ce82ff;
+  color: #ff4b4b;
 }
 
 .keywords ol li a:link {
