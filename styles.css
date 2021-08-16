@@ -10,7 +10,7 @@ body {
 
 h1 {
   text-align: center;
-  color: #58cc02;
+  color: #2b70c9;
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -46,16 +46,16 @@ footer {
   font-weight: bold;
   text-align: center;
   background-color: #ffffff;
-  color: #58cc02;
+  color: #2b70c9;
   padding: 20px 0 20px 0;
 }
 
 footer a:link {
-  color: #58cc02;
+  color: #2b70c9;
 }
 
 footer a:visited {
-  color: #58cc02;
+  color: #2b70c9;
 }
 
 .tanggal {
@@ -71,7 +71,7 @@ footer a:visited {
   padding: 10px;
   width: 25%;
   color: #ffffff;
-  background-color: #58cc02;
+  background-color: #2b70c9;
   border-radius: 10px;
 }
 
@@ -87,7 +87,7 @@ footer a:visited {
   width: 25%;
   background-color: #ffffff;
   border-radius: 5px;
-  color: #1cb0f6;
+  color: #2b70c9;
   position: fixed;
   right: 10px;
 }
@@ -120,21 +120,22 @@ div.sidebar ul li a:visited {
 }
 
 .keywords ol li a:link {
-    color: #1cb0f6;
+    color: #2b70c9;
 }
 
 .keywords ul li a:visited {
-    color: #1cb0f6;
+    color: #2b70c9;
 }
 
 span.penting {
   font-weight: bold;
-  color: #1cb0f6;
+  color: #2b70c9;
 }
 
 p.code {
-  background-color: #e5e5e5;
-  color: #58cc02;
+  background-color: #2b70c9;
+  border-radius: 5px;
+  color: #ffffff;
   text-align: left;
   padding: 5px 10px 5px 10px;
   /* font-family: ; */
