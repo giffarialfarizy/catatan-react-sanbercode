@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" />
     <title>Command Line & Git</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -31,9 +32,62 @@
 
       <!-- Catatan -->
       <div class="catatan">
-        <h2>Catatan</h2>
+        <h2>Catatan Ringkas</h2>
         <ol type="1">
-          <li></li>
+          <li id="file-baru">
+            <p>Command Line Interface: <span class="penting">membuat file baru</span></p>
+            <p class="code">$ touch index.html</p>
+            <p>untuk membuat file baru yaitu index.html</p>
+          </li>
+          <li id="rekomendasi-terminal">
+            <p><span class="penting">Rekomendasi terminal</span>: <a href="https://cmder.net/" target="_blank">cmder</a></p>
+          </li>
+          <li id="perintah-git">
+            <p><span class="penting">Perintah dasar git</span></p>
+            <ol type="a">
+              <li>git init</li>
+              <li>git add</li>
+              <li>git commit</li>
+              <li>git status</li>
+              <li>git push</li>
+              <li>git pull</li>
+            </ol>
+          </li>
+          <li id="remote-repository">
+            <p>Mendorong folder yang sudah ada untuk menjadikannya <span class="penting">remote repository</span></p>
+            <ol>
+              <li>
+                <p class="code">cd demo-git</p>
+              </li>
+              <li>
+                <p class="code">git init</p>
+              </li>
+              <li>
+                <p class="code">git remote add origin https://github.com/yogimahaputra/demo-git.git</p>
+              </li>
+              <li>
+                <p class="code">git add .</p>
+              </li>
+              <li>
+                <p class="code">git commit -m "Initial commit"</p>
+              </li>
+              <li>
+                <p class="code">git push origin master</p>
+              </li>
+            </ol>
+          </li>
+          <li>
+            <p>Untuk Clone Remote Repository menggunakan SSH</p>
+            <ol>
+              <li><a href="https://www.petanikode.com/github-ssh/" target="_blank">https://www.petanikode.com/github-ssh/</a></li>
+              <li><a href="https://rakitaplikasi.com/blog/cara-menggunakan-ssh-di-github" target="_blank">https://rakitaplikasi.com/blog/cara-menggunakan-ssh-di-github</a></li>
+              <li>
+                <a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh" target="_blank"
+                  >https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh</a
+                >
+              </li>
+            </ol>
+          </li>
         </ol>
       </div>
       <!-- end of Catatan -->
@@ -42,7 +96,21 @@
       <div class="keywords">
         <h3>Kata kunci</h3>
         <ul>
-          <li></li>
+          <li>
+            <a href="#file-baru">Membuat file baru</a>
+          </li>
+          <li>
+            <a href="#rekomendasi-terminal">Rekomendasi terminal</a>
+          </li>
+          <li>
+            <a href="#perintah-git">Rekomendasi terminal</a>
+          </li>
+          <li>
+            <a href="#remote-repository">Membuat remote repository dari folder yang sudah ada</a>
+          </li>
+          <li>
+            <a href="#remote-repository">Remote repository menggunakan SSH</a>
+          </li>
         </ul>
       </div>
       <!-- end of Keywords -->

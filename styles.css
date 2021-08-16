@@ -132,5 +132,13 @@ span.penting {
   color: #1cb0f6;
 }
 
+p.code {
+  background-color: #e5e5e5;
+  color: #58cc02;
+  text-align: left;
+  padding: 5px 10px 5px 10px;
+  /* font-family: ; */
+}
+
 
   
